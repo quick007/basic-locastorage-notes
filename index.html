@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Notes</title>
+    <script src="./main.js"></script>
+		<link rel="stylesheet" href="styles.css">
+  </head>
+  <body onload="loadNotes()">
+    <h1>My Notes</h1>
+    <div id="#notes">
+      <p>Loading notes...</p>
+    </div>
+		<button onclick="newNote()" id="#newnote">New Note</button>
+  </body>
+</html>
+
+<!-- 
+	Challenges:
+	- Create a state when there is no id provided in searchParams or no note matches an id
+	- Restyle the page to look better
+	- Make the delete button work
+	- Add a last edited value
+ -->

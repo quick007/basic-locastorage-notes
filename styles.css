@@ -1,0 +1,32 @@
+.list {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	padding: 0rem;
+}
+
+.truncate {
+	white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.note-preview {
+	border-style: solid;
+	border-color: black;
+	list-style-type: none;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+	border-width: 0.05rem;
+	width: 50rem;
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+	gap: 0.5rem
+}
