@@ -22,8 +22,6 @@ const loadNotes = () => {
   }
 };
 
-
-
 const newNote = () => {
   const newNoteBtn = document.getElementById("#newnote");
 	newNoteBtn.disabled = true
@@ -36,7 +34,6 @@ const newNote = () => {
 	const url = new URL(window.location.href)
 	url.pathname = `/note.html`
 	url.searchParams.set("id", id)
-	console.log(url.href)
 	window.location.assign(url.href)
 }
 
